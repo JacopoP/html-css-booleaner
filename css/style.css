@@ -6,6 +6,7 @@ body{
     margin: 0;
 }
 
+/* stile intestazione */
 #intestazione{
     background-image: url("../img/pattern.png");
     background-size: contain;
@@ -27,6 +28,7 @@ h1{
     margin-bottom: 0;
     margin-top: 1.6%;
 }
+/* fine stile intestazione */
 
 .grigio{
     color: #808080;
@@ -39,3 +41,27 @@ h1{
 .small-txt{
     font-size: 0.7em;
 }
+
+/* stile main */
+main span{
+    background-color: yellow;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: #4EA0FF;
+    color: white;
+}
+
+tr.lblue{
+    background-color: #B1E5F2;
+}
+
+td.per50{
+    width: 50%;
+}
+/* fine stile main */
