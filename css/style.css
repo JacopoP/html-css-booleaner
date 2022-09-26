@@ -1,0 +1,41 @@
+*{
+    font-size: 20px;
+}
+
+body{
+    margin: 0;
+}
+
+#intestazione{
+    background-image: url("../img/pattern.png");
+    background-size: contain;
+    background-repeat: repeat;
+    background-color: #4EA0FF;
+    height: 150px;
+    position: relative;
+}
+
+#intestazione img{
+    position: absolute;
+    bottom: 10%;
+    left: 1%;
+    width: 20%;
+}
+
+h1{
+    font-size: 2em;
+    margin-bottom: 0;
+    margin-top: 1.6%;
+}
+
+.grigio{
+    color: #808080;
+}
+
+.grigio span{
+    color: #20A9E5;
+}
+
+.small-txt{
+    font-size: 0.7em;
+}
