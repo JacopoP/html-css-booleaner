@@ -5,17 +5,21 @@
 
 body{
     margin: 0;
-    padding-left: 10%;
-    padding-right: 10%;
 }
 
 .grigio{
     color: #808080;
+    margin-left: 5%;
 }
 
 
 .small-txt{
     font-size: 0.7em;
+    margin-left: 5%;
+}
+
+.grigio .small-txt{
+    margin-left: 0;
 }
 
 /* stile intestazione */
@@ -23,12 +27,10 @@ body{
     background-image: url("../img/pattern.png");
     background-repeat: repeat;
     background-color: #4EA0FF;
+    background-size: contain;
     height: 180px;
     position: relative;
     background-position-x: center;
-    width: 125%;
-    position: relative;
-    left: -12.5%;
 }
 
 #intestazione img{
@@ -36,12 +38,23 @@ body{
     bottom: 10%;
     left: 1%;
     width: 20%;
+    margin-left: 5%;
+}
+
+header img:first-child{
+    margin-left: 5%;
+}
+
+header img:last-child{
+    margin-right: 5%;
 }
 
 h1{
     font-size: 2.2em;
     margin-bottom: 0;
     margin-top: 1.6%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .grigio span{
@@ -50,6 +63,11 @@ h1{
 /* fine stile intestazione */
 
 /* stile main */
+main{
+    width: 90%;
+    margin: auto;
+}
+
 main span{
     background-color: yellow;
 }
@@ -74,12 +92,20 @@ td.per50{
 /* fine stile main */
 
 /* stile footer */
+footer{
+    width: 90%;
+    margin: auto;
+}
+
+footer .grigio{
+    margin-left: 0;
+}
+
 .last-img{
     color: white;
     font-weight: bold;
     font-size: 1.1em;
     height: 208px;
-    background-size:contain;
     background-repeat: no-repeat;
     padding-top: 0.5%;
     padding-left: 0.5%;
