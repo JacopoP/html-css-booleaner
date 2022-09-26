@@ -1,19 +1,29 @@
 *{
-    font-size: 20px;
+    font-size: 25px;
+    box-sizing: border-box;
 }
 
 body{
     margin: 0;
 }
 
+.grigio{
+    color: #808080;
+}
+
+
+.small-txt{
+    font-size: 0.7em;
+}
+
 /* stile intestazione */
 #intestazione{
     background-image: url("../img/pattern.png");
-    background-size: contain;
     background-repeat: repeat;
     background-color: #4EA0FF;
-    height: 150px;
+    height: 180px;
     position: relative;
+    background-position-x: center;
 }
 
 #intestazione img{
@@ -24,23 +34,15 @@ body{
 }
 
 h1{
-    font-size: 2em;
+    font-size: 2.2em;
     margin-bottom: 0;
     margin-top: 1.6%;
-}
-/* fine stile intestazione */
-
-.grigio{
-    color: #808080;
 }
 
 .grigio span{
     color: #20A9E5;
 }
-
-.small-txt{
-    font-size: 0.7em;
-}
+/* fine stile intestazione */
 
 /* stile main */
 main span{
@@ -65,3 +67,25 @@ td.per50{
     width: 50%;
 }
 /* fine stile main */
+
+/* stile footer */
+.last-img{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    height: 208px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    padding-top: 0.5%;
+    padding-left: 0.5%;
+    margin-bottom: 1%;
+}
+
+#footer-img1{
+    background-image: url(../img/monitor.jpg);
+}
+
+#footer-img2{
+    background-image: url(../img/graph.jpg);
+}
+/* fine stile footer */
